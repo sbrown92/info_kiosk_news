@@ -22,6 +22,8 @@ then
 	grep -o '</div><p>[^<]*' output.txt | sed "s|&#[1-9]*;|\'|g"| 	                # Do the same for the <p> tag that contains
 	sed 's|&mdash;|-|g' | sed 's;</div><p>;;g' | sed 's;^[\t]*;;g' > stories.txt	# the body of the article. 
 	
+	rm -f output.txt # Delete output.txt
+	
 	
 	
 	i=0

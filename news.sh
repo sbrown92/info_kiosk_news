@@ -2,9 +2,9 @@
 # Author: Samuel Brown. 
 # Class: UNIX Systems
 # Description: This was an assignment to build a web scraper that would be part
-#			   of an information kiosk. The kiosk would have three columns, each 
-#			   with a different top story from the World News section of the 
-#			   Washington Times website. The window must be atleast 149X25px. 
+#	       of an information kiosk. The kiosk would have three columns, each 
+#	       with a different top story from the World News section of the 
+#	       Washington Times website. The window must be atleast 149X25px. 
 clear
 
 # Download the source from the website.

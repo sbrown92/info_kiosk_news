@@ -69,7 +69,7 @@ then
 	
 				numLine=$((numLine+1))
 			done < temp.txt
-			rm -f temp.txt
+			rm -f temp.txt # Delete temp.txt
 			
 			while [ $numLine -le 19 ];
 			do

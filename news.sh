@@ -95,7 +95,7 @@ then
 				if [ $WIDTH -eq 103 ]
 				then
 					WIDTH=0
-					sleep 2
+					sleep 10
 				fi
 			fi
 		fi

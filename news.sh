@@ -48,7 +48,7 @@ then
 	
 	WIDTH=0
 	numStories=0
-	while [ $numStories -le 5 ];	# Loop through the first 6 positions of 
+	while [ $numStories -le 11 ];	# Loop through the first 6 positions of 
 	do 				# the titles and stories array. 
 		
 		str=""
